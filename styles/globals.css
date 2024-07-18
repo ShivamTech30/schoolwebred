@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "curveFont";
+  src: url("../public/BerkshireSwash-Regular.ttf");
+}
+/* new header--start */
+
+.school_family a {
+  font-family: "Berkshire Swash, cursive";
+  text-transform: capitalize;
+  color: black !important;
+  font-size: 39px;
+}
+.bg_red {
+  background-color: red;
+  height: auto;
+  border-bottom: 2px solid rgb(119, 68, 68);
+  color: aliceblue;
+}
+.light_gray {
+  background: gainsboro;
+  height: 50px;
+  /* background: rgb(173, 167, 167); */
+}
+/* .bg_brown{
+  border-bottom: saddlebrown;
+} */
+
+/* new header--end*/
+.carousel-status {
+  display: none;
+}
+.lgmedia {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1460px) {
+  .lgmedia {
+    margin-left: 75px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .lgmedia {
+    padding-right: 250px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1068px) {
+  .home_clrhvr,.dropdownbtn {
+     margin-left: 20px;
+  }
+  .lgmedia{
+     padding-left: 80px;
+  }
+  .login_btn{
+    width: 62px;
+  }
+}

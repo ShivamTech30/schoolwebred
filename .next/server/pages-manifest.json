@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/About": "pages/About.js",
+  "/Chairman": "pages/Chairman.js",
+  "/Director": "pages/Director.js",
+  "/Principal": "pages/Principal.js",
+  "/Facilities": "pages/Facilities.js",
+  "/AdmissionProcess": "pages/AdmissionProcess.js",
+  "/LatestUpdate": "pages/LatestUpdate.js",
+  "/Gallery": "pages/Gallery.js",
+  "/Contact": "pages/Contact.js"
+}
